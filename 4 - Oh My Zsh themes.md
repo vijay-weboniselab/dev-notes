@@ -35,7 +35,7 @@
    ```shell
    ZSH_THEME="bira"
    ```
-   you can get the theme names from [Oh My Zsh Themes Directory](URL "https://github.com/ohmyzsh/ohmyzsh/wiki/Themes")
+   you can get the theme names from [Oh My Zsh Themes Directory](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes)
 
 6. Save the changes to the `~/.zshrc` file and close the text editor.
 
@@ -46,7 +46,7 @@
 
    The new theme should now be applied to your Oh My Zsh shell.
 
-8. To check and `download` all the available list of themes please visit [Oh My Zsh Themes Directory](URL "https://github.com/ohmyzsh/ohmyzsh/wiki/Themes") :
+8. To check and `download` all the available list of themes please visit [Oh My Zsh Themes Directory](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes):
 
 
 Remember, if you want to revert back to the previous theme or choose a different theme in the future, you can follow the same steps and update the `ZSH_THEME` variable accordingly.
