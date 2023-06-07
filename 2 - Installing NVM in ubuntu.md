@@ -7,21 +7,21 @@
 
 ## Steps
 
-1. Open a terminal on your Ubuntu system. (`Ctrl + Alt + T`)
+### 1. Open a terminal on your Ubuntu system. (`Ctrl + Alt + T`)
 
-2. Update the package lists for upgrades and new package installations:
+### 2. Update the package lists for upgrades and new package installations:
    
    ```shell
    sudo apt update
    ```
 
-3. Install the dependencies needed to build NVM and Node.js:
+### 3. Install the dependencies needed to build NVM and Node.js:
    
    ```shell
    sudo apt install build-essential libssl-dev
    ```
 
-2. Download the NVM installation script using cURL:
+### 2. Download the NVM installation script using cURL:
    
    ```shell
    wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
@@ -32,8 +32,9 @@
    wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
    ```
 
-3. The installation script will add the necessary NVM environment variables to your ~/.bashrc or ~/.bash_profile file. To apply these changes, run:
-   
+### 3. The installation script will add the necessary NVM environment variables to your ~/.bashrc or ~/.bash_profile file. To apply these changes, run:
+
+
    ```shell
    source ~/.bashrc
    ```
@@ -41,32 +42,38 @@
    ```shell
    source ~/.bash_profile
    ```
-4. Verify that NVM is installed correctly by running:
+   ### if you are using `zsh` or `oh-my-zsh` shell.
+   ```shell
+   source ~/.zshrc
+   ```
+
+
+### 4. Verify that NVM is installed correctly by running:
    
    ```shell
    nvm --version
    ```
    It should display the version number of NVM.
 
-5. Now, you can install the desired Node.js version using NVM. For example, to install the latest LTS version of Node.js, run:
+### 5. Now, you can install the desired Node.js version using NVM. For example, to install the latest LTS version of Node.js, run:
    
    ```shell
    nvm install --lts
    ```
 
-6. You can also install a specific version by specifying it instead of --lts. For example:
+### 6. You can also install a specific version by specifying it instead of --lts. For example:
    
    ```shell
    nvm install 18
    ```
 
-7. Once installed, you can set the default Node.js version to use:
+### 7. Once installed, you can set the default Node.js version to use:
    
    ```shell
    nvm alias default <version>
    ```
 
-8. NVM commands 
+### 8. NVM commands 
     ```shell
         vijay@MSI:/mnt/c/Users/vijay$ nvm -v
             0.39.3
