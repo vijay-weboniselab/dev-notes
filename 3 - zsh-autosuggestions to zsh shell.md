@@ -1,6 +1,6 @@
 # Adding Zsh Auto-suggestions to Oh My Zsh
 
-This guide will walk you through the steps to add Zsh auto-suggestions to your Oh My Zsh shell.
+## This guide will walk you through the steps to add Zsh auto-suggestions to your Oh My Zsh shell.
 
 ## Prerequisites
 
@@ -51,6 +51,4 @@ Before you begin, make sure you have Oh My Zsh installed on your system. If not,
 
 You can customize the behavior and appearance of Zsh auto-suggestions. The configuration options are available in the `~/.zshrc` file under the `zsh-autosuggestions` plugin section. You can modify these options according to your preferences.
 
-## Conclusion
-
-Congratulations! You have successfully added Zsh auto-suggestions to your Oh My Zsh shell. Enjoy the enhanced command line experience with intelligent suggestions.
+### Official Docs - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)

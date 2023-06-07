@@ -4,12 +4,16 @@
 
 ## You can follow these steps:
 
-1. Open a terminal on your system.
+1. Open a terminal on your system. backup the .zshrc file.
+   ```shell
+   cp ~/.zshrc ~/.backup_zshrc
+   ```
 
 2. Locate the `~/.zshrc` file. This is the configuration file for Oh My Zsh. You can open it in a text editor using the following command:
    ```shell
    nano ~/.zshrc
    ```
+   note: you can use any editor eg. gedit ~/.zshrc
 
 3. Look for the line that sets the `ZSH_THEME` variable. It will look like this:
    ```shell
@@ -31,6 +35,7 @@
    ```shell
    ZSH_THEME="bira"
    ```
+   you can get the theme names from [Oh My Zsh Themes Directory](URL "https://github.com/ohmyzsh/ohmyzsh/wiki/Themes")
 
 6. Save the changes to the `~/.zshrc` file and close the text editor.
 

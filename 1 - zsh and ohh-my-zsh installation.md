@@ -1,6 +1,6 @@
 ## Install Zsh and Oh My Zsh on Ubuntu
 
-To install Zsh and Oh My Zsh on Ubuntu, you can follow these steps:
+### To install Zsh and Oh My Zsh on Ubuntu, you can follow these steps:
 
 1. Open a terminal by pressing `Ctrl+Alt+T` or by searching for "Terminal" in the application launcher.
 
@@ -39,4 +39,4 @@ To install Zsh and Oh My Zsh on Ubuntu, you can follow these steps:
 
 7. Once the installation is complete, your new Zsh configuration will be active. You can customize it by editing the `~/.zshrc` file.
 
-That's it! You now have Zsh and Oh My Zsh installed on your Ubuntu system. Enjoy using your new shell!
+### Official Doc - https://github.com/ohmyzsh/ohmyzsh#basic-installation

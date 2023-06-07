@@ -1,6 +1,6 @@
 # Installing NVM in ubuntu
 
-To install NVM (Node Version Manager) on Ubuntu, you can follow these steps:
+## To install NVM (Node Version Manager) on Ubuntu, you can follow these steps:
 
 
 
@@ -95,3 +95,6 @@ To install NVM (Node Version Manager) on Ubuntu, you can follow these steps:
             default -> 18 (-> v18.15.0)
         
     ```
+
+
+    ### Official Docs - https://github.com/nvm-sh/nvm#installing-and-updating
