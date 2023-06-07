@@ -1,4 +1,4 @@
-# Must have Visual Studio Code Extensions for web developers
+# Visual Studio Code Extensions for web developers
 
 ## Search and install the extension from extensions menu from side bar or Press "`Ctrl + P`" and copy paste the `ext` command and run it.
 
